@@ -1,0 +1,292 @@
+ @media (min-width: 1124px) and (max-width: 1510px) {
+     .sliderArowControl {
+         padding-top: 19%;
+     }
+ }
+
+ @media (min-width: 1024px) and (max-width: 1123px) {
+     .sliderArowControl {
+         padding-top: 21%;
+     }
+ }
+
+ @media (min-width: 700px) and (max-width: 1023px) {
+     .sliderArowControl {
+         padding-top: 25%;
+     }
+
+     .navBarLink {
+         display: none;
+     }
+
+     .hidenBox {
+         display: block;
+     }
+
+     header ul {
+         margin: 5px;
+     }
+
+     .logo {
+         text-align: center;
+         padding: 0;
+     }
+
+     .firstInfoBlockText {
+         flex-basis: 100%;
+         text-align: justify;
+         padding: 0;
+     }
+
+     .twoInfoBlockText {
+         flex-basis: 100%;
+         text-align: justify;
+         padding: 0;
+     }
+
+     .hidenBoxLink {
+         text-align: left;
+         margin: 0;
+     }
+
+     header {
+         height: 100px;
+     }
+
+     .logo h1 {
+         font-size: 40px;
+     }
+
+     .sliderArowControl {
+         padding-top: 32%;
+     }
+
+     .slider__control--right {
+         left: 90%;
+     }
+
+     .slide__content {
+         left: 41.5%;
+     }
+
+     .firstInfoBlock {
+         flex-wrap: wrap;
+     }
+
+     .twoInfoBlock {
+         flex-wrap: wrap-reverse;
+     }
+
+     footer {
+         flex-wrap: wrap;
+         */ justify-content: center;
+         flex-direction: column;
+         padding: 0;
+     }
+
+     .datImp {
+         flex-basis: 100%;
+         padding: 0;
+     }
+
+     .contactLink {
+         padding: 0;
+         align-items: center;
+     }
+
+     .footerInfo {
+
+         margin: 0;
+     }
+ }
+
+ @media (min-width: 600px) and (max-width: 699px) {
+     header {
+         height: 100px;
+     }
+
+     header ul {
+         margin: 5px;
+     }
+
+     .logo h1 {
+         font-size: 36px;
+     }
+
+     .navBarLink {
+         display: none;
+     }
+
+     .hidenBox {
+         display: block;
+     }
+
+     .logo {
+         text-align: center;
+         padding: 0;
+     }
+
+     .firstInfoBlockText {
+         flex-basis: 100%;
+         text-align: justify;
+         padding: 0;
+     }
+
+     .twoInfoBlockText {
+         flex-basis: 100%;
+         text-align: justify;
+         padding: 0;
+     }
+
+     .sliderArowControl {
+         padding-top: 32%;
+     }
+
+     .slider__control--right {
+         left: 90%;
+     }
+
+     .slide__content {
+         left: 41.5%;
+     }
+
+     .firstInfoBlock {
+         flex-wrap: wrap;
+     }
+
+     .twoInfoBlock {
+         flex-wrap: wrap-reverse;
+     }
+
+     footer {
+         flex-wrap: wrap;
+         */ justify-content: center;
+         flex-direction: column;
+         padding: 0;
+     }
+
+     .datImp {
+         flex-basis: 100%;
+         padding: 0;
+     }
+
+     .contactLink {
+         padding: 0;
+         align-items: center;
+     }
+
+     .footerInfo {
+
+         margin: 0;
+     }
+ }
+
+ @media (min-width: 320px) and (max-width: 599px) {
+     header {
+         height: 100px;
+     }
+
+     header ul {
+         margin: 5px;
+     }
+
+     .logo h1 {
+         font-size: 24px;
+         padding-left: 100px;
+     }
+
+     .navBarLink {
+         display: none;
+     }
+
+     .hidenBox {
+         display: block;
+     }
+
+     .sliderContainer {
+         display: none;
+     }
+
+     .logo {
+         text-align: center;
+         padding: 0;
+     }
+
+     .firstInfoBlockText {
+         flex-basis: 100%;
+         text-align: justify;
+         padding: 0;
+     }
+
+     .twoInfoBlockText {
+         flex-basis: 100%;
+         text-align: justify;
+         padding: 0;
+     }
+
+     .sliderArowControl {
+         padding-top: 32%;
+     }
+
+     .slider__control--right {
+         left: 90%;
+     }
+
+     .slide__content {
+         left: 41.5%;
+     }
+
+     .firstInfoBlock {
+         flex-wrap: wrap;
+         margin: 50px 10px 0 10px;
+     }
+
+     .firstInfoBlockText p {
+         line-height: 24px;
+     }
+
+     .twoInfoBlock {
+         flex-wrap: wrap-reverse;
+         margin: 50px 10px 0 10px;
+     }
+
+     .twoInfoBlockText p {
+         line-height: 24px;
+     }
+
+     footer {
+         flex-wrap: wrap;
+         */ justify-content: center;
+         flex-direction: column;
+         padding: 0;
+     }
+
+     .datImp {
+         flex-basis: 100%;
+         padding: 0;
+         padding-top: 10px;
+     }
+
+     .contactLink {
+         padding: 0;
+         align-items: center;
+     }
+
+     .footerInfo {
+
+         margin: 0;
+     }
+
+     .firstInfoBlockImg img {
+         max-width: 100%
+     }
+
+     .twoInfoBlockImg img {
+         max-width: 100%
+     }
+
+     .footerInfo p {
+         font-size: 13px;
+         line-height: 26px;
+     }
+ }

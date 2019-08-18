@@ -1,0 +1,375 @@
+body {
+    /*    width: 1920px;*/
+    margin: 0;
+    max-width: 1920px;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background: #0070af;
+    position: relative;
+    z-index: 22;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    text-align: left;
+    padding: 0 0 0 48px;
+    color: #fff;
+}
+
+.logo h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 36px;
+
+}
+
+.logoLink {
+    display: block;
+}
+
+.logoLink:hover {
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 24px 48px 24px 48px;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+    ;
+}
+
+a:hover {
+    list-style: none;
+    /*text-decoration: underline;*/
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+}
+
+a:active {
+    color: #f00;
+}
+
+.navBarLink {
+    text-decoration: none;
+    list-style: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #4E4E4E;
+    margin: 24px 48px 24px 48px;
+}
+
+.hidenBoxLink {
+    display: block;
+
+}
+
+/*End of header*/
+
+.firstInfoBlock {
+    display: flex;
+    margin: 50px 48px 0 48px;
+}
+
+.twoInfoBlock {
+    display: flex;
+    margin: 50px 48px 50px 48px;
+}
+
+.firstInfoBlockImg {
+    text-align: left;
+    margin: auto;
+}
+
+.firstInfoBlockImg img {
+    transition-duration: 3s;
+    transition-delay: 3s;
+    animation: fade-in 5s linear;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    /*50%{  opacity: 0.5; } */
+    100% {
+        opacity: 1;
+    }
+}
+
+.twoInfoBlockImg img {
+    transition-duration: 3s;
+    transition-delay: 3s;
+    animation: fade-in2 5s linear;
+}
+
+@keyframes fade-in2 {
+    0% {
+        opacity: 0;
+    }
+
+    /*50%{  opacity: 0.5; } */
+    100% {
+        opacity: 1;
+    }
+}
+
+.twoInfoBlockText {
+    flex-basis: 80%;
+    text-align: justify;
+    padding: 0 48px 0 0;
+}
+
+.twoInfoBlockText h3 {
+    font-size: 32px;
+    font-family: Open Sans;
+    line-height: 32px;
+    margin: 0;
+}
+
+.twoInfoBlockText p {
+    font-size: 16px;
+    font-style: ;
+    line-height: 28px;
+}
+
+.twoInfoBlockImg {
+    text-align: right;
+    margin: auto;
+}
+
+.firstInfoBlockText {
+    flex-basis: 80%;
+    text-align: justify;
+    padding: 0 0 0 48px;
+    position: relative;
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s;
+    /* Safari 4.0 - 8.0 */
+    animation: exampleone 2s linear;
+}
+
+@keyframes exampleone {
+    0% {
+        left: 300px;
+        top: 0px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.firstInfoBlockText h3 {
+    font-size: 32px;
+    font-family: Open Sans;
+    line-height: 32px;
+    margin: 0;
+}
+
+.firstInfoBlockText p {
+    font-size: 16px;
+    font-style: ;
+    line-height: 28px;
+}
+
+.twoInfoBlockText {
+    position: relative;
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s;
+    /* Safari 4.0 - 8.0 */
+    animation: example 2s linear;
+}
+
+@keyframes example {
+    0% {
+        left: -300px;
+        top: 0px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+
+
+/*footer start*/
+footer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background: #0070af;
+    position: relative;
+    z-index: 22;
+    padding: 24px 0 24px 0;
+}
+
+.footerInfo {
+    display: flex;
+    margin: 0 0 0 auto;
+}
+
+.footerInfo p {
+    color: #fff;
+    margin: 0;
+    padding-left: 16px;
+}
+
+.footerInfo p:nth-child(2) {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.datImp a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+}
+
+.datImp a:nth-child(2) {
+    margin-left: 24px;
+}
+
+.hidenBox {
+    display: none;
+}
+
+.contactLink {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    padding-left: 85%;
+    padding: 0 48px 0 0;
+    text-align: left;
+}
+
+.contactLink span {
+    font-size: 16px;
+    padding: 16px 16px 16px 0;
+}
+
+.datImp {
+    flex-basis: 50%;
+    padding: 0 0 0 48px;
+}
+
+/*Responsive Hamburger Menu*/
+#menu-button {
+    position: fixed;
+    top: 0px;
+    left: -1px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: #3cb3b3;
+    border-radius: 5px;
+    z-index: 200;
+}
+
+#menu-button:after {
+    position: absolute;
+    content: "☰";
+    font-size: 60px;
+    color: #fff;
+    width: 100px;
+    height: 64px;
+    text-align: center;
+    line-height: 95px;
+}
+
+#menu-button:hover {
+    opacity: 0.8;
+}
+
+#menu-button.on:after {
+    content: "x";
+}
+
+#overlay {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#overlay.open {
+    display: block;
+}
+
+#hamburger-menu {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    z-index: 101;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 0;
+    height: 0;
+}
+
+#hamburger-menu nav {
+    padding: 10px;
+    z-index: 101;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #3cb3b3;
+    border-radius: 10px;
+    height: 400px;
+}
+
+#hamburger-menu nav a {
+    display: block;
+    padding: 10px;
+    /*height: 1em;*/
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+#hamburger-menu nav a:hover {
+    cursor: pointer;
+    color: #fff;
+}
