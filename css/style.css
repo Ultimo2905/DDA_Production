@@ -25,31 +25,22 @@ header {
     color: #fff;
 }
 
-.logo h1 {
+.logo__h1 {
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
     line-height: 36px;
-
 }
-
-.logoLink {
-    display: block;
+.menu-box{
+    height: 90px;
 }
-
-.logoLink:hover {
-    text-decoration: none;
-}
-
-header ul {
+.menu-box-ink{
     display: flex;
-    list-style: none;
-    justify-content: space-between;
-    margin: 24px 48px 24px 48px;
-    padding: 0;
+    justify-content: space-between; 
+    padding: 25px 48px 25px 48px;
 }
 
-li a {
+.menu-box-ink__a {
     text-decoration: none;
     font-family: Roboto;
     font-style: normal;
@@ -57,35 +48,17 @@ li a {
     font-size: 24px;
     line-height: 28px;
     color: #fff;
-    ;
+    position: relative;
 }
 
-a:hover {
-    list-style: none;
-    /*text-decoration: underline;*/
-    border-bottom: 1px solid #fff;
+.menu-box-ink__a:hover {
     padding-bottom: 2px;
+    border-bottom: 2px solid #fff;
+
 }
 
-a:active {
+.menu-box-ink__a:active {
     color: #f00;
-}
-
-.navBarLink {
-    text-decoration: none;
-    list-style: none;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    color: #4E4E4E;
-    margin: 24px 48px 24px 48px;
-}
-
-.hidenBoxLink {
-    display: block;
-
 }
 
 /*End of header*/
@@ -237,7 +210,7 @@ footer {
 
 .footerInfo {
     display: flex;
-    margin: 0 0 0 auto;
+    margin: 0;
 }
 
 .footerInfo p {
@@ -265,15 +238,10 @@ footer {
     margin-left: 24px;
 }
 
-.hidenBox {
-    display: none;
-}
-
 .contactLink {
     display: flex;
     flex-direction: column;
-    flex-basis: 50%;
-    padding-left: 85%;
+    flex-basis: 20%;
     padding: 0 48px 0 0;
     text-align: left;
 }
@@ -284,92 +252,7 @@ footer {
 }
 
 .datImp {
-    flex-basis: 50%;
+    flex-basis: 75%;
     padding: 0 0 0 48px;
 }
 
-/*Responsive Hamburger Menu*/
-#menu-button {
-    position: fixed;
-    top: 0px;
-    left: -1px;
-    display: block;
-    width: 100px;
-    height: 100px;
-    background: #3cb3b3;
-    border-radius: 5px;
-    z-index: 200;
-}
-
-#menu-button:after {
-    position: absolute;
-    content: "☰";
-    font-size: 60px;
-    color: #fff;
-    width: 100px;
-    height: 64px;
-    text-align: center;
-    line-height: 95px;
-}
-
-#menu-button:hover {
-    opacity: 0.8;
-}
-
-#menu-button.on:after {
-    content: "x";
-}
-
-#overlay {
-    display: none;
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    z-index: 99;
-    opacity: 0;
-    background-color: rgba(0, 0, 0, 0.4);
-    bottom: 0;
-    right: 0;
-    left: 0;
-}
-
-#overlay.open {
-    display: block;
-}
-
-#hamburger-menu {
-    position: fixed;
-    top: 100px;
-    left: 100px;
-    z-index: 101;
-    overflow: hidden;
-    border-radius: 5px;
-    width: 0;
-    height: 0;
-}
-
-#hamburger-menu nav {
-    padding: 10px;
-    z-index: 101;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    background-color: #3cb3b3;
-    border-radius: 10px;
-    height: 400px;
-}
-
-#hamburger-menu nav a {
-    display: block;
-    padding: 10px;
-    /*height: 1em;*/
-    color: #fff;
-    font-size: 20px;
-    line-height: 20px;
-    text-decoration: none;
-    overflow: hidden;
-}
-
-#hamburger-menu nav a:hover {
-    cursor: pointer;
-    color: #fff;
-}
