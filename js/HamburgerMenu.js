@@ -1,7 +1,7 @@
 // JavaScript source code
 $(function () {
     let width = 200,
-        height = 300,
+        height = 500,
         speed = 300,
         button = $('#menu-button'),
         overlay = $('#overlay'),
