@@ -2,12 +2,25 @@
      .sliderArowControl {
          padding-top: 19%;
      }
+
+     .contactLink {
+         flex-basis: 35%;
+     }
  }
 
  @media (min-width: 1024px) and (max-width: 1123px) {
      .sliderArowControl {
          padding-top: 21%;
      }
+
+     .contactLink {
+         flex-basis: 50%;
+     }
+
+     .menu-box-ink__a {
+         font-size: 22px;
+     }
+
  }
 
  @media (min-width: 700px) and (max-width: 1023px) {
@@ -98,6 +111,86 @@
 
          margin: 0;
      }
+
+     /*Responsive Hamburger Menu*/
+     #menu-button {
+         position: fixed;
+         top: 0px;
+         left: -1px;
+         display: block;
+         width: 100px;
+         height: 100px;
+         background: #0070af;
+         border-radius: 5px;
+         z-index: 200;
+     }
+
+     #menu-button:after {
+         position: absolute;
+         content: "☰";
+         font-size: 60px;
+         color: #fff;
+         width: 100px;
+         height: 64px;
+         text-align: center;
+         line-height: 95px;
+     }
+
+     #menu-button.on:after {
+         content: "x";
+     }
+
+     #overlay {
+         display: none;
+         height: 100vh;
+         width: 100%;
+         position: fixed;
+         z-index: 99;
+         opacity: 0;
+         background-color: rgba(0, 0, 0, 0.4);
+         bottom: 0;
+         right: 0;
+         left: 0;
+     }
+
+     #overlay.open {
+         display: block;
+     }
+
+     #hamburger-menu {
+         position: fixed;
+         top: 100px;
+         left: 100px;
+         z-index: 101;
+         overflow: hidden;
+         border-radius: 5px;
+         width: 0;
+         height: 0;
+     }
+
+     #hamburger-menu nav {
+         padding: 10px;
+         z-index: 101;
+         overflow-y: hidden;
+         overflow-x: hidden;
+         background-color: #0070af;
+         border-radius: 10px;
+         height: 400px;
+         display: flex;
+        flex-direction: column;
+     }
+
+     #hamburger-menu nav a {
+         display: block;
+         padding: 10px;
+         /*height: 1em;*/
+         color: #fff;
+         font-size: 20px;
+         line-height: 20px;
+         text-decoration: none;
+         overflow: hidden;
+     }
+
  }
 
  @media (min-width: 600px) and (max-width: 699px) {
@@ -179,6 +272,85 @@
 
          margin: 0;
      }
+     /*Responsive Hamburger Menu*/
+     #menu-button {
+         position: fixed;
+         top: 0px;
+         left: -1px;
+         display: block;
+         width: 100px;
+         height: 100px;
+         background: #0070af;
+         border-radius: 5px;
+         z-index: 200;
+     }
+
+     #menu-button:after {
+         position: absolute;
+         content: "☰";
+         font-size: 60px;
+         color: #fff;
+         width: 100px;
+         height: 64px;
+         text-align: center;
+         line-height: 95px;
+     }
+
+     #menu-button.on:after {
+         content: "x";
+     }
+
+     #overlay {
+         display: none;
+         height: 100vh;
+         width: 100%;
+         position: fixed;
+         z-index: 99;
+         opacity: 0;
+         background-color: rgba(0, 0, 0, 0.4);
+         bottom: 0;
+         right: 0;
+         left: 0;
+     }
+
+     #overlay.open {
+         display: block;
+     }
+
+     #hamburger-menu {
+         position: fixed;
+         top: 100px;
+         left: 100px;
+         z-index: 101;
+         overflow: hidden;
+         border-radius: 5px;
+         width: 0;
+         height: 0;
+     }
+
+     #hamburger-menu nav {
+         padding: 10px;
+         z-index: 101;
+         overflow-y: hidden;
+         overflow-x: hidden;
+         background-color: #0070af;
+         border-radius: 10px;
+         height: 400px;
+         display: flex;
+        flex-direction: column;
+     }
+
+     #hamburger-menu nav a {
+         display: block;
+         padding: 10px;
+         /*height: 1em;*/
+         color: #fff;
+         font-size: 20px;
+         line-height: 20px;
+         text-decoration: none;
+         overflow: hidden;
+     }
+
  }
 
  @media (min-width: 320px) and (max-width: 599px) {
@@ -289,4 +461,84 @@
          font-size: 13px;
          line-height: 26px;
      }
+
+     /*Responsive Hamburger Menu*/
+     #menu-button {
+         position: fixed;
+         top: 0px;
+         left: -1px;
+         display: block;
+         width: 100px;
+         height: 100px;
+         background: #0070af;
+         border-radius: 5px;
+         z-index: 200;
+     }
+
+     #menu-button:after {
+         position: absolute;
+         content: "☰";
+         font-size: 60px;
+         color: #fff;
+         width: 100px;
+         height: 64px;
+         text-align: center;
+         line-height: 95px;
+     }
+
+     #menu-button.on:after {
+         content: "x";
+     }
+
+     #overlay {
+         display: none;
+         height: 100vh;
+         width: 100%;
+         position: fixed;
+         z-index: 99;
+         opacity: 0;
+         background-color: rgba(0, 0, 0, 0.4);
+         bottom: 0;
+         right: 0;
+         left: 0;
+     }
+
+     #overlay.open {
+         display: block;
+     }
+
+     #hamburger-menu {
+         position: fixed;
+         top: 100px;
+         left: 12px;
+         z-index: 101;
+         overflow: hidden;
+         border-radius: 5px;
+         width: 0;
+         height: 0;
+     }
+
+     #hamburger-menu nav {
+         padding: 10px;
+         z-index: 101;
+         overflow-y: hidden;
+         overflow-x: hidden;
+         background-color: #0070af;
+         border-radius: 10px;
+         height: 400px;
+         display: flex;
+        flex-direction: column;
+     }
+
+     #hamburger-menu nav a {
+         display: block;
+         padding: 10px;
+         /*height: 1em;*/
+         color: #fff;
+         font-size: 20px;
+         line-height: 20px;
+         text-decoration: none;
+         overflow: hidden;
+     }
+
  }
