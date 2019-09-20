@@ -31,6 +31,9 @@
      .navBarLink {
          display: none;
      }
+      .sliderContainer{
+        display: none;
+    }
 
      .hidenBox {
          display: block;
@@ -209,6 +212,9 @@
      .navBarLink {
          display: none;
      }
+      .sliderContainer{
+        display: none;
+    }
 
      .hidenBox {
          display: block;
