@@ -516,7 +516,7 @@
      #hamburger-menu {
          position: fixed;
          top: 100px;
-         left: 12px;
+         left: 50px;
          z-index: 101;
          overflow: hidden;
          border-radius: 5px;
